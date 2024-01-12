@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #FFF;
+}
+
+header {
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 113.67px;
+}
+
+.header__nav__list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav__list__item a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333;
+}
+
+.header__search {
+    display: flex;
+    gap: 20px;
+}
+
+.header__search input {
+    border-bottom: 1px solid #333;
+    max-width: 150px;
+}
+
+.header__localization {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__description {
+    background: url(images/background.png) no-repeat;
+    background-size: cover;
+    height: 750px;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+.main__description .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 134px;
+}
+
+.main__description .container .description {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 526px;
+}
+
+.main__description .container .description h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #FFF;
+}
+
+.main__description .container .description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #FFF;
+}
+
+.main__description .container .description .about {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.main__description .container .description .about p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFF;
+}
+
+
+.main__description .container .services .services__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.main__description .container .services .services__list .services__list__item {
+    background: #5DB7DE;
+    width: 306px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.main__description .container .services .services__list .services__list__item h1 {
+    margin-left: 35px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #FFF;
+}
+
+.main__description .container .services .services__list .services__list__item p {
+    margin-left: 35px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #FFF;
+}
+
+.services__block h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 60px;
+}
+
+.services__block__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.services__block__list__item {
+    display: flex;
+    align-items: center;
+}
+
+.services__block__list__item p {
+    width: 250px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3D348B;
+    border-bottom: 1px dotted #3D348B;
+}
+
+.services__block__list__item button {
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    background: #5DB7DE;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.main__services {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+}
+
+.services__box__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.services__box__list__item {
+    background: #3D348B;
+    border-radius: 20px;
+    padding: 0 35px;
+
+    width: 416px;
+    height: 223px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.services__box__list__item h1 {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+
+    color: #FFF;
+}
+
+.services__box__list__item p {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #FFF;
+}
+
+.news {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.news__container__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.news__container__header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #333;
+}
+
+.news__container__header__more {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.news__container__header__more p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #3D348B;
+}
+
+.news__more__list {
+    display: flex;
+    gap: 24px;
+}
+
+.news__more__list__item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 306px;
+}
+
+.news__more__description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.news__more__description p {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #333;
+}
+
+.news__more__description h1 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #333;
+}
+
+.news__more__description h2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #3D348B;
+}
+footer .section {
+    background-color: black;
+    opacity: 0.85;
+}
+footer .section .swapper {
+    /* background-color: #3D348B;
+    opacity: 0.85; */
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    color: #FFF;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    height: 120px;
+    align-items: center;
+}
+
+footer .location {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+footer .information {
+    display: flex;
+    gap: 30px;
+}
+
+footer .information .phone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .information .email {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .section .logoFooter {
+    width: 108px;
+    height: 30px;
+}
+
+footer .information__block {
+    background-color: #3D348B;
+}
+
+footer .information__block .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .information__block__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 24px;
+}
+
+footer .information__block__list__item {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    gap: 10px;
+}
+
+footer .information__block__list__item h1 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+footer .information__block__list__item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFF;
+}
+
+footer .all__rigth {
+    margin-top: 80px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
